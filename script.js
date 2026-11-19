@@ -22,7 +22,6 @@ if (menuToggle && nav) {
 
 document.querySelector("#year").textContent = new Date().getFullYear();
 
-// IMPORTANT: Replace this URL with the real Fruit Heist Roblox experience URL
-// before publishing. The current link intentionally points to Roblox's homepage.
-const ROBLOX_GAME_URL = "https://www.roblox.com/";
+// Fruit Heist Roblox experience URL.
+const ROBLOX_GAME_URL = "https://www.roblox.com/games/83688722984966/Fruit-Heist";
 document.querySelector("#roblox-link").href = ROBLOX_GAME_URL;
