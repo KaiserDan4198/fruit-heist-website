@@ -1,115 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#123d2d">
-  <meta name="description" content="Fruit Heist — collect rare fruits, build your empire, and make your move in a tropical world.">
-  <meta property="og:title" content="FRUIT HEIST — The tropical heist begins">
-  <meta property="og:description" content="Collect. Upgrade. Steal. Build your fruit empire.">
-  <meta property="og:type" content="website">
-  <title>FRUIT HEIST — The tropical heist begins</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102f25">
+<meta name="description" content="Fruit Heist — collect rare fruits, grow your fortune and make your move.">
+<meta property="og:title" content="FRUIT HEIST — Make your move">
+<meta property="og:description" content="Collect. Upgrade. Outplay. Your tropical empire starts here.">
+<title>FRUIT HEIST — Make your move</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script defer src="script.js"></script>
 </head>
 <body>
-  <div class="announcement"><span class="announcement-dot"></span> A NEW KIND OF FRUIT EMPIRE IS GROWING <span class="announcement-spark">✦</span></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Fruit Heist home">
-      <span class="brand-mark">🍉</span><span>FRUIT<span class="brand-light">HEIST</span></span>
-    </a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#about">THE GAME</a><a href="#fruits">FRUITS</a><a href="#world">THE WORLD</a><a href="#progression">PROGRESSION</a>
-    </nav>
-    <a class="button button-small button-dark" href="#play">PLAY THE GAME <span>↗</span></a>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-sun"></div><div class="hero-cloud cloud-one"></div><div class="hero-cloud cloud-two"></div>
-      <div class="hero-leaf leaf-left">✦</div><div class="hero-leaf leaf-right">✿</div>
-      <div class="hero-content">
-        <div class="eyebrow"><span>🍍</span> WELCOME TO THE TROPICS</div>
-        <h1>BUILD YOUR<br><em>FRUIT</em> EMPIRE.</h1>
-        <p class="hero-copy">Collect legendary fruits, grow your fortune, upgrade your base — and keep an eye on everyone else's harvest.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#play">ENTER FRUIT HEIST <span>→</span></a>
-          <a class="text-link" href="#about">DISCOVER THE GAME <span>↓</span></a>
-        </div>
-        <div class="hero-note"><span class="online-dot"></span> A tropical world full of opportunities</div>
-      </div>
-      <div class="hero-art" aria-label="Illustration of tropical fruit characters">
-        <div class="fruit-orbit orbit-one"></div><div class="fruit-orbit orbit-two"></div>
-        <div class="fruit-card fruit-card-main"><div class="fruit-crown">✦</div><div class="fruit-emoji">🍍</div><div class="fruit-face">•ᴗ•</div><span class="fruit-label">PINEAPPLE</span></div>
-        <div class="fruit-card fruit-card-small fruit-card-left"><div class="fruit-emoji">🍓</div><div class="fruit-face">◕‿◕</div><span class="fruit-label">BERRY</span></div>
-        <div class="fruit-card fruit-card-small fruit-card-right"><div class="fruit-emoji">🥭</div><div class="fruit-face">•ᴗ•</div><span class="fruit-label">MANGO</span></div>
-        <div class="hero-splash splash-one"></div><div class="hero-splash splash-two"></div>
-        <div class="floating-chip chip-top">✧ RARE FINDS</div><div class="floating-chip chip-bottom">+ MORE TO DISCOVER</div>
-      </div>
-      <div class="hero-bottom"><span>COLLECT</span><i></i><span>UPGRADE</span><i></i><span>OUTPLAY</span></div>
-    </section>
-
-    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>🍊 COLLECT</span><b>✦</b><span>🍍 BUILD</span><b>✦</b><span>🍓 UPGRADE</span><b>✦</b><span>🍉 HEIST</span><b>✦</b><span>🥭 REPEAT</span><b>✦</b><span>🍊 COLLECT</span><b>✦</b><span>🍍 BUILD</span><b>✦</b><span>🍓 UPGRADE</span><b>✦</b><span>🍉 HEIST</span><b>✦</b><span>🥭 REPEAT</span></div></div>
-
-    <section class="section intro-section" id="about">
-      <div class="section-kicker">01 / THE GAME</div>
-      <div class="intro-grid">
-        <div><h2>IT'S A JUNGLE<br>OUT <span>THERE.</span></h2></div>
-        <div class="intro-text"><p class="large-copy">Welcome to <strong>Fruit Heist</strong>, a tropical playground where every fruit is a chance to get richer.</p><p>Build your collection, bring your fruits home, earn money over time, and make smart moves to climb higher. Whether you're chasing the next rare drop or protecting your growing empire, there's always another goal on the horizon.</p><a class="underlined-link" href="#progression">HOW PROGRESSION WORKS <span>↗</span></a></div>
-      </div>
-      <div class="feature-strip">
-        <article class="feature"><span class="feature-icon">🧺</span><h3>COLLECT</h3><p>Discover fruits across a range of rarities and build a collection worth showing off.</p></article>
-        <article class="feature"><span class="feature-icon">💸</span><h3>EARN</h3><p>Put your collection to work and grow your in-game fortune.</p></article>
-        <article class="feature"><span class="feature-icon">🛠️</span><h3>UPGRADE</h3><p>Improve your setup and work toward a bigger, better base.</p></article>
-        <article class="feature"><span class="feature-icon">🕵️</span><h3>HEIST</h3><p>Take calculated risks, compete with others, and protect what you've built.</p></article>
-      </div>
-    </section>
-
-    <section class="fruit-section" id="fruits">
-      <div class="fruit-bg-shape"></div>
-      <div class="section section-inner">
-        <div class="section-kicker light-kicker">02 / THE COLLECTION</div>
-        <div class="section-heading-row"><div><h2>SMALL FRUITS.<br><span>BIG FORTUNE.</span></h2></div><p>48 original fruits. 8 rarity tiers. A collection that keeps you hunting for the next big find.</p></div>
-        <div class="rarity-grid">
-          <div class="rarity-card rarity-common"><span>01</span><div>🍌</div><b>COMMON</b></div>
-          <div class="rarity-card rarity-uncommon"><span>02</span><div>🍏</div><b>UNCOMMON</b></div>
-          <div class="rarity-card rarity-rare"><span>03</span><div>🍓</div><b>RARE</b></div>
-          <div class="rarity-card rarity-epic"><span>04</span><div>🍇</div><b>EPIC</b></div>
-          <div class="rarity-card rarity-legendary"><span>05</span><div>🍍</div><b>LEGENDARY</b></div>
-          <div class="rarity-card rarity-mythic"><span>06</span><div>🥭</div><b>MYTHIC</b></div>
-          <div class="rarity-card rarity-divine"><span>07</span><div>🍉</div><b>DIVINE</b></div>
-          <div class="rarity-card rarity-secret"><span>08</span><div>🍒</div><b>SECRET</b></div>
-        </div>
-        <div class="mutation-callout"><div class="mutation-icon">✨</div><div><b>THEN, SOMETHING UNEXPECTED HAPPENS...</b><p>Golden, Frozen, Toxic, Electric, Diamond, Rainbow, Cosmic and Galactic mutations can make a fruit even more special.</p></div><span class="mutation-count">8 <small>MUTATIONS</small></span></div>
-      </div>
-    </section>
-
-    <section class="section world-section" id="world">
-      <div class="section-kicker">03 / EXPLORE THE WORLD</div>
-      <div class="section-heading-row world-heading"><h2>YOUR EMPIRE<br><span>STARTS HERE.</span></h2><p>A tropical island built for collecting, competing, exploring and making your next move.</p></div>
-      <div class="world-grid">
-        <article class="world-card world-main"><div class="world-visual oasis-visual"><span class="visual-sun"></span><span class="visual-palm palm-a">🌴</span><span class="visual-palm palm-b">🌴</span><span class="visual-waterfall">〰</span><span class="visual-water">🌊</span><span class="visual-caption">THE OASIS</span></div><div class="world-card-copy"><span>01 / EXPLORE</span><h3>FIND YOUR PARADISE.</h3><p>Discover the island's tropical corners, from lush greenery to the waterfall and winding river.</p></div></article>
-        <article class="world-card"><div class="world-visual base-visual"><div class="mini-house"><span>🏡</span></div><span class="visual-caption">YOUR BASE</span></div><div class="world-card-copy"><span>02 / BUILD</span><h3>MAKE IT YOURS.</h3><p>Grow your home, organize your collection and make room for bigger ambitions.</p></div></article>
-        <article class="world-card"><div class="world-visual market-visual"><div class="market-stall">🍉<br>🍍<br>🍊</div><span class="visual-caption">THE MARKET</span></div><div class="world-card-copy"><span>03 / TRADE</span><h3>THE NEXT BIG FIND.</h3><p>Visit the island's shops and look for opportunities to strengthen your collection.</p></div></article>
-      </div>
-    </section>
-
-    <section class="progress-section" id="progression">
-      <div class="section progress-inner">
-        <div class="section-kicker light-kicker">04 / THE LONG GAME</div>
-        <div class="progress-layout"><div><h2>FROM YOUR<br>FIRST FRUIT TO<br><span>YOUR OWN EMPIRE.</span></h2><p class="progress-lead">Every step should move you forward. Start small, make smart choices, and build something worth protecting.</p><a href="#play" class="button button-yellow">START YOUR JOURNEY <span>→</span></a></div>
-          <div class="progress-steps"><div class="step"><span>01</span><div><b>START YOUR COLLECTION</b><p>Find your first fruits and learn how the island works.</p></div><span class="step-icon">🍋</span></div><div class="step"><span>02</span><div><b>GROW YOUR INCOME</b><p>Build a collection that helps your fortune grow.</p></div><span class="step-icon">💰</span></div><div class="step"><span>03</span><div><b>UPGRADE YOUR BASE</b><p>Invest in improvements and make space for more.</p></div><span class="step-icon">🏠</span></div><div class="step"><span>04</span><div><b>CHASE THE RAREST</b><p>Keep pushing toward the rarest fruits and biggest goals.</p></div><span class="step-icon">💎</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="final-cta" id="play"><div class="cta-deco">🍊</div><div class="cta-deco cta-deco-two">🍍</div><div class="section-kicker">YOUR NEXT ADVENTURE AWAITS</div><h2>READY TO MAKE<br><span>YOUR MOVE?</span></h2><p>Your collection won't build itself. The island is waiting.</p><a class="button button-primary button-cta" id="roblox-link" href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">PLAY ON ROBLOX <span>↗</span></a><small>FRUIT HEIST · COLLECT. UPGRADE. OUTPLAY.</small></section>
-  </main>
-
-  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">🍉</span><span>FRUIT<span class="brand-light">HEIST</span></span></a><p>Built for fruit lovers, risk takers and future tycoons.</p><div class="footer-links"><a href="#about">THE GAME</a><a href="#fruits">FRUITS</a><a href="#world">WORLD</a><a href="#play">PLAY</a></div><div class="footer-bottom"><span>© <span id="year"></span> FRUIT HEIST. ALL RIGHTS RESERVED.</span><span>AN INDEPENDENT ROBLOX EXPERIENCE</span></div></footer>
-</body>
-</html>
+<div class="topline"><i></i> THE TROPICAL HEIST IS CALLING <b>✳</b></div>
+<header class="header">
+<a class="logo" href="#home"><span>🍉</span> FRUIT<span>HEIST</span></a>
+<button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav class="nav"><a href="#experience">EXPERIENCE</a><a href="#collection">COLLECTION</a><a href="#island">THE ISLAND</a><a href="#community">COMMUNITY</a></nav>
+<div class="header-actions"><a class="discord-link" href="https://discord.gg/QwpytmqX5n" target="_blank" rel="noopener">DISCORD ↗</a><a class="button dark" href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">PLAY NOW ↗</a></div>
+</header>
+<main id="home">
+<section class="hero">
+<div class="hero-copy"><div class="eyebrow">✦ &nbsp; WELCOME TO YOUR NEW OBSESSION</div>
+<h1>THE JUICIEST<br>HEIST IN <em>ROBLOX.</em></h1>
+<p>Build your collection. Grow your fortune. Make your move. In Fruit Heist, every fruit brings you one step closer to the top.</p>
+<div class="actions"><a class="button lime" href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">PLAY FRUIT HEIST <b>➜</b></a><a class="button ghost" href="https://discord.gg/QwpytmqX5n" target="_blank" rel="noopener">◉ JOIN OUR DISCORD</a></div>
+<div class="proof"><span>🍍</span><div><b>48 UNIQUE FRUITS</b><small>Find your next favourite</small></div><i></i><div><b>8 RARITY TIERS</b><small>Chase the extraordinary</small></div></div></div>
+<div class="stage"><div class="sun"></div><div class="ring"></div><div class="palm palm-a">🌴</div><div class="palm palm-b">🌴</div>
+<div class="fruit pineapple"><small>✦</small><strong>🍍</strong><b>•ᴗ•</b><label>LEGENDARY</label></div><div class="fruit berry"><strong>🍓</strong><b>◕‿◕</b></div><div class="fruit mango"><strong>🥭</strong><b>•ᴗ•</b></div><div class="burst">HEIST<br>TIME!</div><div class="stage-note">● YOUR NEXT BIG FIND IS OUT THERE</div></div>
+<div class="scroll">SCROLL TO EXPLORE ↓</div>
+</section>
+<div class="marquee"><div>🍊 COLLECT　✳　🍍 UPGRADE　✳　🍓 OUTPLAY　✳　🍉 BUILD YOUR EMPIRE　✳　🍊 COLLECT　✳　🍍 UPGRADE　✳　🍓 OUTPLAY　✳　🍉 BUILD YOUR EMPIRE　✳</div></div>
+<section class="section" id="experience"><div class="topline-section"><span>01 / THE EXPERIENCE</span><small>A WORLD OF OPPORTUNITY</small></div>
+<div class="split"><h2>MORE THAN A<br><em>FRUIT GAME.</em></h2><p>Fruit Heist brings collecting, strategy, competition and progression together in one tropical world. Every decision can help you build a bigger empire.</p></div>
+<div class="features">
+<article><div class="feature-art pink">🍓</div><small>01</small><h3>COLLECT</h3><p>Discover fruits across eight rarity tiers. Keep hunting for the ones everyone wants.</p></article>
+<article><div class="feature-art yellow">💰</div><small>02</small><h3>GROW YOUR FORTUNE</h3><p>Build a valuable collection and turn your finds into a growing source of income.</p></article>
+<article><div class="feature-art green">🏡</div><small>03</small><h3>UPGRADE</h3><p>Improve your base, expand your setup and make room for your next milestone.</p></article>
+<article><div class="feature-art blue">🕵️</div><small>04</small><h3>MAKE YOUR MOVE</h3><p>Take risks, pull off a heist and protect the progress you've worked for.</p></article>
+</div></section>
+<section class="collection" id="collection"><div class="section"><div class="topline-section light"><span>02 / THE COLLECTION</span><small>GOTTA FIND 'EM ALL</small></div><div class="split"><h2>48 FRUITS.<br><em>ENDLESS FLEX.</em></h2><p>From everyday finds to the rarest secrets on the island. How far can you take your collection?</p></div>
+<div class="rarities"><div class="r r1">🍌<b>COMMON</b></div><div class="r r2">🍏<b>UNCOMMON</b></div><div class="r r3">🍓<b>RARE</b></div><div class="r r4">🍇<b>EPIC</b></div><div class="r r5">🍍<b>LEGENDARY</b></div><div class="r r6">🥭<b>MYTHIC</b></div><div class="r r7">🍉<b>DIVINE</b></div><div class="r r8">🍒<b>SECRET</b></div></div>
+<div class="mutations"><span>✨</span><div><b>ONE FRUIT. A WHOLE NEW LOOK.</b><p>Golden · Frozen · Toxic · Electric · Diamond · Rainbow · Cosmic · Galactic</p></div><strong>8<small>MUTATIONS</small></strong></div></div></section>
+<section class="section" id="island"><div class="topline-section"><span>03 / YOUR PLAYGROUND</span><small>EXPLORE THE ISLAND</small></div><div class="split"><h2>PARADISE HAS<br>A <em>COMPETITIVE SIDE.</em></h2><p>A tropical island with places to explore, spaces to grow and plenty of reasons to come back.</p></div>
+<div class="places"><article><div class="place-art oasis"><span>☀</span>🌴<label>THE OASIS</label></div><small>01 / EXPLORE</small><h3>TAKE THE SCENIC ROUTE.</h3><p>Wander through a lush tropical setting with water, greenery and hidden corners.</p></article><article><div class="place-art home">🏡<label>YOUR BASE</label></div><small>02 / BUILD</small><h3>MAKE IT YOUR EMPIRE.</h3><p>Your own space to display your collection and work toward the next upgrade.</p></article><article><div class="place-art market">🏪<label>THE MARKET</label></div><small>03 / DISCOVER</small><h3>ALWAYS ANOTHER FIND.</h3><p>Explore the shops and look for the next opportunity to level up.</p></article></div></section>
+<section class="journey"><div class="section journey-grid"><div><span class="eyebrow">04 / THE LONG GAME</span><h2>START SMALL.<br><em>THINK TROPICAL.</em></h2><p>Every fruit, every upgrade and every smart decision brings your empire one step further. The goal is yours to chase.</p><a class="button yellow" href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">START YOUR JOURNEY ➜</a></div>
+<div class="steps"><div><b>01</b><section><strong>FIND YOUR FIRST FRUITS</strong><small>Start your collection and learn the ropes.</small></section>🍋</div><div><b>02</b><section><strong>BUILD YOUR INCOME</strong><small>Put your collection to work.</small></section>💸</div><div><b>03</b><section><strong>UPGRADE YOUR BASE</strong><small>Make room for bigger ambitions.</small></section>🏠</div><div><b>04</b><section><strong>CHASE THE RAREST</strong><small>Keep pushing toward the top.</small></section>💎</div></div></div></section>
+<section class="community" id="community"><div class="decor decor-a">🍊</div><div class="decor decor-b">🍍</div><span>05 / STAY IN THE LOOP</span><h2>THE HEIST IS<br><em>BETTER TOGETHER.</em></h2><p>Meet other players, follow development and be part of the Fruit Heist community.</p><div class="actions center"><a class="button dark big" href="https://discord.gg/QwpytmqX5n" target="_blank" rel="noopener">◉ JOIN THE DISCORD ↗</a><a class="button outline big" href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">PLAY ON ROBLOX ↗</a></div><small>FRUIT HEIST · COLLECT. UPGRADE. OUTPLAY.</small></section>
+</main>
+<footer class="footer"><a class="logo" href="#home">🍉 FRUIT<span>HEIST</span></a><p>Build your collection. Make your move.</p><div class="footer-links"><a href="https://discord.gg/QwpytmqX5n" target="_blank" rel="noopener">DISCORD ↗</a><a href="https://www.roblox.com/games/83688722984966/Fruit-Heist" target="_blank" rel="noopener">ROBLOX ↗</a></div><div class="bottom"><span>© <span id="year"></span> FRUIT HEIST. ALL RIGHTS RESERVED.</span><span>AN INDEPENDENT ROBLOX EXPERIENCE</span></div></footer>
+</body></html>

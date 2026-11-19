@@ -1,37 +1,19 @@
-# FRUIT HEIST — Official Website
+# FRUIT HEIST — Official Website v2
 
-A responsive, tropical-themed promotional landing page built with plain HTML, CSS and JavaScript. It is ready to publish with GitHub Pages.
+Tropical promotional landing page built with HTML, CSS and vanilla JavaScript.
 
-## Files
+## Official destinations (already connected)
+- Roblox: https://www.roblox.com/games/83688722984966/Fruit-Heist
+- Discord: https://discord.gg/QwpytmqX5n
 
-- `index.html` — page structure and promotional copy
-- `styles.css` — responsive tropical visual design
-- `script.js` — mobile navigation and Roblox destination
-- `assets/` — place approved game screenshots, logo and artwork here
+Every Play Now / Play on Roblox link opens the Fruit Heist experience. Every Discord link opens the supplied invite.
 
-## Preview locally
+## Publish on GitHub Pages
+1. Create or open your public GitHub repository.
+2. Upload the contents of this folder to the repository root.
+3. Open Settings → Pages.
+4. Choose Deploy from a branch, select `main` and `/ (root)`, then save.
+5. Wait for GitHub Pages to provide the public URL.
 
-Open `index.html` in a browser. For a more realistic local preview, use the VS Code Live Server extension.
-
-## Publish with GitHub Pages
-
-1. Create a new public GitHub repository, for example `fruit-heist-website`.
-2. Upload `index.html`, `styles.css`, `script.js`, `README.md` and the `assets` folder to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site. Your URL will look like `https://YOUR-USERNAME.github.io/fruit-heist-website/`.
-
-## Before public launch
-
-Search `script.js` for `ROBLOX_GAME_URL` and replace the placeholder with the actual Fruit Heist Roblox experience URL.
-
-Also review the following:
-- Replace the emoji-based fruit illustrations and CSS world illustrations with approved in-game screenshots and official artwork.
-- Add the real Roblox group, Discord and social links if/when they exist.
-- Confirm which game features are implemented and publicly available. The current copy describes the documented game vision and systems; it does not claim every system is already live.
-- Add a real favicon and social sharing image (Open Graph image) when official artwork is ready.
-
-## Editing content
-
-Most text is in `index.html`. Colors, typography and responsive layout are in `styles.css`.
+## Important before final launch
+The fruit and island artwork in this prototype is made from CSS and emoji. Replace it with approved Fruit Heist screenshots, logo and official game art to make the website accurately represent the live build. Review all feature descriptions against the current playable game.
